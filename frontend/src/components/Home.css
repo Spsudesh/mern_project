@@ -1,0 +1,88 @@
+/* Beautiful web fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&family=Poppins:wght@500;600;700&display=swap');
+.search-bar {
+    background-color: white;
+    border: 2px solid #ffc107;
+    color: #555;
+  }
+  
+  .search-bar::placeholder {
+    color: #555;
+  }
+  
+  .btn-search {
+    background-color: #ffc107;
+    border: none;
+    color: #000;
+  }
+  
+  .btn-search:hover {
+    background-color: #e0a800;
+  }
+  
+  .fixed-size-img {
+    height: 400px;
+    object-fit: cover;
+  }
+  
+  .light-blue-background {
+    background-color: #e6f7ff;
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+
+/* Updated navbar brand and items */
+.pet-shelter-brand {
+  font-family: 'Lobster Two', 'Pacifico', cursive, 'Segoe UI', Arial;
+  color: #fff;
+  text-shadow: 0 2px 0 rgba(0,0,0,.06), 0 6px 18px rgba(0,0,0,.12);
+}
+
+.custom-navbar {
+  background: #FFDE63 !important;
+  box-shadow: 0 4px 20px rgba(255, 222, 99, 0.4);
+  border-bottom: 3px solid #f4d03f;
+}
+
+.custom-nav-link {
+  position: relative;
+  font-size: 1.08rem;
+  font-weight: 600;
+  font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
+  transition: color 0.25s ease, transform 0.25s ease, font-weight 0.25s ease;
+  padding: 6px 4px;
+  color: #234C6A !important;
+  letter-spacing: 0.4px;
+  margin: 0 16px;
+}
+
+.custom-nav-link:hover,
+.custom-nav-link:focus {
+  color: #000000 !important;
+  font-weight: 900;
+  text-decoration: none;
+  transform: translateY(-1px);
+}
+
+.custom-nav-link::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 3px;
+  background: #000000;
+  transition: width 0.25s ease;
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  border-radius: 2px;
+}
+
+.custom-nav-link:hover::after,
+.custom-nav-link:focus::after {
+  width: 100%;
+}
+  
+.text-white
+{
+  color: #8B4513;
+}
