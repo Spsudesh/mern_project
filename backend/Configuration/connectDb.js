@@ -1,6 +1,6 @@
 const dotenv = require("dotenv"); 
 dotenv.config();
-const url = process.env.DB_URI || process.env.MONGO_URI || "mongodb://127.0.0.1:27017/test";
+const url = "mongodb+srv://sudeshpol:sudesh123@cluster0.yfeoeyb.mongodb.net/test";
 
 const mongoose = require("mongoose"); 
 const connectDb = async () => {

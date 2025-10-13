@@ -19,8 +19,8 @@ connectDb();
 // Seed a default admin user if none exists
 const seedAdmin = async () => {
     try {
-        const adminEmail = process.env.ADMIN_EMAIL || 'admin@hopesanctuary.local';
-        const adminPassword = process.env.ADMIN_PASSWORD || 'Admin@12345';
+        const adminEmail = process.env.ADMIN_EMAIL || 'admin@gmail.com';
+        const adminPassword = process.env.ADMIN_PASSWORD || 'Admin@123';
         const existingAdmin = await User.findOne({ email: adminEmail });
         if (!existingAdmin) {
             const adminUser = new User({
