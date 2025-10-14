@@ -25,7 +25,7 @@ const SignUp = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post("http://localhost:5000/api/users/signup", formData);
+      await axios.post("https://mern-project-q1ob.onrender.com/api/users/signup", formData);
       setMessage("User created successfully! Redirecting to login...");
       setTimeout(() => {
         navigate('/login');
